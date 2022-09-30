@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-family: "PT Sans";
+}
+body .title {
+  padding: 0 15px;
+  margin: 4rem auto;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+#accordion {
+  margin: 4rem auto;
+  width: 800px;
+}
+@media screen and (max-width: 950px) {
+  #accordion {
+    width: 90%;
+  }
+}
+#accordion li {
+  list-style: none;
+  width: 90%;
+  margin: 15px auto;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: solid 1px gray;
+}
+#accordion li label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #235844;
+  gap: 1rem;
+}
+#accordion li label span {
+  font-size: 2rem;
+}
+#accordion li input[type=radio] {
+  display: none;
+}
+#accordion li input[type=radio]:checked + .content {
+  max-height: 400px;
+}
+#accordion li .content {
+  padding: 0 10px;
+  line-height: 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+#accordion li .content p {
+  font-family: "Raleway";
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
