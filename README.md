@@ -5,6 +5,10 @@
 
 ## Welcome! 👋
 
-- In this short project, I focus on making a very simple responsive accordion using SASS
+- In this short project, I focus on making a very simple responsive accordion using SASS only.
 
-Thanks for checking out my SASS learning project.
+### Languages and features 👨‍💻 
+
+- SASS: nesting, responsive page, media queries.
+
+Thanks for checking out my projects
